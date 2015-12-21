@@ -1,0 +1,72 @@
+$image_size: 10rem;
+
+.what{
+  @include span-columns (12);
+  @include row(table);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: $purple;
+  .white{
+   .logo{
+    width: 70%; 
+   }
+  }
+  .content{
+    position: absolute;
+    top: -20rem;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+  }
+  .padding_image{
+    @include pad($image_size); 
+  }
+  #what_4{
+    background-image: url("https://images.rapgenius.com/5aqadsaty60ljdtldr6b2y5st.405x405x1.png");
+    background-size: cover;
+  }
+  #what_content{
+    position: absolute;
+    height: $image_size * 2;
+    text-align: center;
+    top: -20rem;
+  }
+  #what_2, #what_4, #what_3{
+    position: relative;
+    background-color: $deep_purple !important; 
+    #what_content{
+      padding-top: 5rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+      background-color: $purple !important; 
+    }
+  }
+  #what_1{
+    #what_content{
+      background-color: $deep_purple;
+      padding-top: 6rem;
+    }
+  }
+  .little-button{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3px;
+    @include transition(0.3s all);
+    &:hover{
+      background-color: $deep_purple;
+      cursor: pointer;
+    }
+  }
+}

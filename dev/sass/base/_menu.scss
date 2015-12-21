@@ -1,0 +1,22 @@
+.menu{
+  background-color: #5e0050;
+  .left{
+    .logo{
+      height: 2rem;
+      width: auto;
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+  }
+  .menu-item{
+    display: inline-block;
+    color: #fff;
+    font-family: helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+     background-color: #7f3373;  
+    }
+  }
+}

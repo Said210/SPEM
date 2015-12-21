@@ -1,0 +1,36 @@
+@mixin base($calc){
+  width: $calc;
+  display: inline-block;
+  @include reset-display;
+  margin-top: 0px;
+  position: relative;
+}
+.container {
+  @include outer-container;
+  
+  .child {
+  	@include span-columns (12);
+	@include row(table);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+
+	  .block {
+		@include base(23.23176% + 1.769%);
+	  }
+	  .half{
+        @include base(50%);
+	  }
+      .third{
+        @include base(100% / 3);
+      }
+      .full{
+        @include base(100%);
+      }
+  }
+  
+}
+.left{
+  float: left;}
+.right{
+  float: right;}

@@ -1,0 +1,345 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700,900);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body:before {
+  content: '';
+  display: inline-block;
+  background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #6fbbeb 0, #6fbbeb 6.17215%, transparent 6.17215%, transparent 8.5298%, #6fbbeb 8.5298%, #6fbbeb 14.70196%, transparent 14.70196%, transparent 17.05961%, #6fbbeb 17.05961%, #6fbbeb 23.23176%, transparent 23.23176%, transparent 25.58941%, #6fbbeb 25.58941%, #6fbbeb 31.76157%, transparent 31.76157%, transparent 34.11922%, #6fbbeb 34.11922%, #6fbbeb 40.29137%, transparent 40.29137%, transparent 42.64902%, #6fbbeb 42.64902%, #6fbbeb 48.82117%, transparent 48.82117%, transparent 51.17883%, #6fbbeb 51.17883%, #6fbbeb 57.35098%, transparent 57.35098%, transparent 59.70863%, #6fbbeb 59.70863%, #6fbbeb 65.88078%, transparent 65.88078%, transparent 68.23843%, #6fbbeb 68.23843%, #6fbbeb 74.41059%, transparent 74.41059%, transparent 76.76824%, #6fbbeb 76.76824%, #6fbbeb 82.94039%, transparent 82.94039%, transparent 85.29804%, #6fbbeb 85.29804%, #6fbbeb 91.4702%, transparent 91.4702%, transparent 93.82785%, #6fbbeb 93.82785%, #6fbbeb 100.0%, transparent 100.0%);
+  background-image: -webkit-linear-gradient(left, transparent 0, #6fbbeb 0, #6fbbeb 6.17215%, transparent 6.17215%, transparent 8.5298%, #6fbbeb 8.5298%, #6fbbeb 14.70196%, transparent 14.70196%, transparent 17.05961%, #6fbbeb 17.05961%, #6fbbeb 23.23176%, transparent 23.23176%, transparent 25.58941%, #6fbbeb 25.58941%, #6fbbeb 31.76157%, transparent 31.76157%, transparent 34.11922%, #6fbbeb 34.11922%, #6fbbeb 40.29137%, transparent 40.29137%, transparent 42.64902%, #6fbbeb 42.64902%, #6fbbeb 48.82117%, transparent 48.82117%, transparent 51.17883%, #6fbbeb 51.17883%, #6fbbeb 57.35098%, transparent 57.35098%, transparent 59.70863%, #6fbbeb 59.70863%, #6fbbeb 65.88078%, transparent 65.88078%, transparent 68.23843%, #6fbbeb 68.23843%, #6fbbeb 74.41059%, transparent 74.41059%, transparent 76.76824%, #6fbbeb 76.76824%, #6fbbeb 82.94039%, transparent 82.94039%, transparent 85.29804%, #6fbbeb 85.29804%, #6fbbeb 91.4702%, transparent 91.4702%, transparent 93.82785%, #6fbbeb 93.82785%, #6fbbeb 100.0%, transparent 100.0%);
+  background-image: -moz-linear-gradient(left, transparent 0, #6fbbeb 0, #6fbbeb 6.17215%, transparent 6.17215%, transparent 8.5298%, #6fbbeb 8.5298%, #6fbbeb 14.70196%, transparent 14.70196%, transparent 17.05961%, #6fbbeb 17.05961%, #6fbbeb 23.23176%, transparent 23.23176%, transparent 25.58941%, #6fbbeb 25.58941%, #6fbbeb 31.76157%, transparent 31.76157%, transparent 34.11922%, #6fbbeb 34.11922%, #6fbbeb 40.29137%, transparent 40.29137%, transparent 42.64902%, #6fbbeb 42.64902%, #6fbbeb 48.82117%, transparent 48.82117%, transparent 51.17883%, #6fbbeb 51.17883%, #6fbbeb 57.35098%, transparent 57.35098%, transparent 59.70863%, #6fbbeb 59.70863%, #6fbbeb 65.88078%, transparent 65.88078%, transparent 68.23843%, #6fbbeb 68.23843%, #6fbbeb 74.41059%, transparent 74.41059%, transparent 76.76824%, #6fbbeb 76.76824%, #6fbbeb 82.94039%, transparent 82.94039%, transparent 85.29804%, #6fbbeb 85.29804%, #6fbbeb 91.4702%, transparent 91.4702%, transparent 93.82785%, #6fbbeb 93.82785%, #6fbbeb 100.0%, transparent 100.0%);
+  background-image: -ms-linear-gradient(left, transparent 0, #6fbbeb 0, #6fbbeb 6.17215%, transparent 6.17215%, transparent 8.5298%, #6fbbeb 8.5298%, #6fbbeb 14.70196%, transparent 14.70196%, transparent 17.05961%, #6fbbeb 17.05961%, #6fbbeb 23.23176%, transparent 23.23176%, transparent 25.58941%, #6fbbeb 25.58941%, #6fbbeb 31.76157%, transparent 31.76157%, transparent 34.11922%, #6fbbeb 34.11922%, #6fbbeb 40.29137%, transparent 40.29137%, transparent 42.64902%, #6fbbeb 42.64902%, #6fbbeb 48.82117%, transparent 48.82117%, transparent 51.17883%, #6fbbeb 51.17883%, #6fbbeb 57.35098%, transparent 57.35098%, transparent 59.70863%, #6fbbeb 59.70863%, #6fbbeb 65.88078%, transparent 65.88078%, transparent 68.23843%, #6fbbeb 68.23843%, #6fbbeb 74.41059%, transparent 74.41059%, transparent 76.76824%, #6fbbeb 76.76824%, #6fbbeb 82.94039%, transparent 82.94039%, transparent 85.29804%, #6fbbeb 85.29804%, #6fbbeb 91.4702%, transparent 91.4702%, transparent 93.82785%, #6fbbeb 93.82785%, #6fbbeb 100.0%, transparent 100.0%);
+  background-image: -o-linear-gradient(left, transparent 0, #6fbbeb 0, #6fbbeb 6.17215%, transparent 6.17215%, transparent 8.5298%, #6fbbeb 8.5298%, #6fbbeb 14.70196%, transparent 14.70196%, transparent 17.05961%, #6fbbeb 17.05961%, #6fbbeb 23.23176%, transparent 23.23176%, transparent 25.58941%, #6fbbeb 25.58941%, #6fbbeb 31.76157%, transparent 31.76157%, transparent 34.11922%, #6fbbeb 34.11922%, #6fbbeb 40.29137%, transparent 40.29137%, transparent 42.64902%, #6fbbeb 42.64902%, #6fbbeb 48.82117%, transparent 48.82117%, transparent 51.17883%, #6fbbeb 51.17883%, #6fbbeb 57.35098%, transparent 57.35098%, transparent 59.70863%, #6fbbeb 59.70863%, #6fbbeb 65.88078%, transparent 65.88078%, transparent 68.23843%, #6fbbeb 68.23843%, #6fbbeb 74.41059%, transparent 74.41059%, transparent 76.76824%, #6fbbeb 76.76824%, #6fbbeb 82.94039%, transparent 82.94039%, transparent 85.29804%, #6fbbeb 85.29804%, #6fbbeb 91.4702%, transparent 91.4702%, transparent 93.82785%, #6fbbeb 93.82785%, #6fbbeb 100.0%, transparent 100.0%);
+  background-image: linear-gradient(left, transparent 0, #6fbbeb 0, #6fbbeb 6.17215%, transparent 6.17215%, transparent 8.5298%, #6fbbeb 8.5298%, #6fbbeb 14.70196%, transparent 14.70196%, transparent 17.05961%, #6fbbeb 17.05961%, #6fbbeb 23.23176%, transparent 23.23176%, transparent 25.58941%, #6fbbeb 25.58941%, #6fbbeb 31.76157%, transparent 31.76157%, transparent 34.11922%, #6fbbeb 34.11922%, #6fbbeb 40.29137%, transparent 40.29137%, transparent 42.64902%, #6fbbeb 42.64902%, #6fbbeb 48.82117%, transparent 48.82117%, transparent 51.17883%, #6fbbeb 51.17883%, #6fbbeb 57.35098%, transparent 57.35098%, transparent 59.70863%, #6fbbeb 59.70863%, #6fbbeb 65.88078%, transparent 65.88078%, transparent 68.23843%, #6fbbeb 68.23843%, #6fbbeb 74.41059%, transparent 74.41059%, transparent 76.76824%, #6fbbeb 76.76824%, #6fbbeb 82.94039%, transparent 82.94039%, transparent 85.29804%, #6fbbeb 85.29804%, #6fbbeb 91.4702%, transparent 91.4702%, transparent 93.82785%, #6fbbeb 93.82785%, #6fbbeb 100.0%, transparent 100.0%);
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: Infinityem;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 9999; }
+
+.container {
+  *zoom: 1;
+  max-width: Infinityem;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+  .container .child {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%;
+    *zoom: 1;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+    .container .child:last-child {
+      margin-right: 0; }
+    .container .child:before, .container .child:after {
+      content: " ";
+      display: table; }
+    .container .child:after {
+      clear: both; }
+    .container .child .block {
+      width: 25.00076%;
+      display: inline-block;
+      margin-top: 0px;
+      position: relative; }
+    .container .child .half {
+      width: 50%;
+      display: inline-block;
+      margin-top: 0px;
+      position: relative; }
+    .container .child .third {
+      width: 33.33333%;
+      display: inline-block;
+      margin-top: 0px;
+      position: relative; }
+    .container .child .full {
+      width: 100%;
+      display: inline-block;
+      margin-top: 0px;
+      position: relative; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.menu {
+  background-color: #5e0050; }
+  .menu .left .logo {
+    height: 2rem;
+    width: auto;
+    margin-top: 15px;
+    margin-left: 15px; }
+  .menu .menu-item {
+    display: inline-block;
+    color: #fff;
+    font-family: helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer; }
+    .menu .menu-item:hover {
+      background-color: #7f3373; }
+
+*, body {
+  font-family: "Roboto", helvetica, sans-serif;
+  font-weight: 400; }
+
+body {
+  background-color: #5e0050; }
+
+.hidden {
+  z-index: -1;
+  visibility: hidden; }
+
+hr {
+  width: 90%;
+  border-radius: 10px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px; }
+
+hr {
+  border-top: 3px solid #5e0050; }
+
+hr.purple {
+  border-top: 3px solid #7f3373; }
+
+.white {
+  background-color: white !important; }
+
+.fix {
+  margin-top: -5px !important; }
+
+.li {
+  font-weight: 100; }
+
+.bo {
+  font-weight: 700; }
+
+.su-bo {
+  font-weight: 900; }
+
+.small {
+  font-size: 1.2rem; }
+
+.med {
+  font-size: 1.5rem; }
+
+.big {
+  font-size: 2rem; }
+
+.super_big {
+  font-size: 3rem; }
+
+.us {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%;
+  *zoom: 1;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: #5e0050; }
+  .us:last-child {
+    margin-right: 0; }
+  .us:before, .us:after {
+    content: " ";
+    display: table; }
+  .us:after {
+    clear: both; }
+  .us .white .logo {
+    width: 70%; }
+  .us .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    text-align: center; }
+  .us .padding_image {
+    padding: 6rem; }
+  .us #us_1 {
+    background-image: url("http://vignette1.wikia.nocookie.net/josh100lubu/images/4/40/18360-doge-doge-simple.jpg/revision/latest?cb=20150626051745");
+    background-size: cover; }
+  .us #us_2 {
+    background-image: url("http://i.imgur.com/dnBDQft.png");
+    background-size: cover; }
+  .us #us_3 {
+    background-image: url("https://pbs.twimg.com/profile_images/459076351832494080/1bj2iihM.jpeg");
+    background-size: cover; }
+  .us #us_content {
+    position: absolute;
+    height: 12rem;
+    text-align: center;
+    background-color: #7f3373; }
+
+.who {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%;
+  *zoom: 1;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: #fff; }
+  .who:last-child {
+    margin-right: 0; }
+  .who:before, .who:after {
+    content: " ";
+    display: table; }
+  .who:after {
+    clear: both; }
+  .who .white .logo {
+    width: 70%; }
+  .who .content {
+    position: absolute;
+    top: -20rem;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    text-align: center; }
+  .who .padding_image {
+    padding: 10rem; }
+  .who #who_1 {
+    background-image: url("https://images.rapgenius.com/5aqadsaty60ljdtldr6b2y5st.405x405x1.png");
+    background-size: cover; }
+  .who #who_3 {
+    color: #5e0050; }
+  .who #who_content {
+    position: absolute;
+    height: 20rem;
+    text-align: center; }
+  .who #who_2, .who #who_4, .who #who_3 {
+    position: relative;
+    background-color: #5e0050 !important; }
+    .who #who_2 #who_content, .who #who_4 #who_content, .who #who_3 #who_content {
+      padding-top: 5rem;
+      position: absolute;
+      top: -20rem;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+      background-color: #5e0050 !important; }
+
+.what {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%;
+  *zoom: 1;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: #7f3373; }
+  .what:last-child {
+    margin-right: 0; }
+  .what:before, .what:after {
+    content: " ";
+    display: table; }
+  .what:after {
+    clear: both; }
+  .what .white .logo {
+    width: 70%; }
+  .what .content {
+    position: absolute;
+    top: -20rem;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    text-align: center; }
+  .what .padding_image {
+    padding: 10rem; }
+  .what #what_4 {
+    background-image: url("https://images.rapgenius.com/5aqadsaty60ljdtldr6b2y5st.405x405x1.png");
+    background-size: cover; }
+  .what #what_content {
+    position: absolute;
+    height: 20rem;
+    text-align: center;
+    top: -20rem; }
+  .what #what_2, .what #what_4, .what #what_3 {
+    position: relative;
+    background-color: #5e0050 !important; }
+    .what #what_2 #what_content, .what #what_4 #what_content, .what #what_3 #what_content {
+      padding-top: 5rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+      background-color: #7f3373 !important; }
+  .what #what_1 #what_content {
+    background-color: #5e0050;
+    padding-top: 6rem; }
+  .what .little-button {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3px;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    transition: 0.3s all; }
+    .what .little-button:hover {
+      background-color: #5e0050;
+      cursor: pointer; }
+
+/*
+  
+*/
+
+/*# sourceMappingURL=app.css.map */

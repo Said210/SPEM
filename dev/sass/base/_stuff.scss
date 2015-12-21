@@ -1,0 +1,48 @@
+$deep_purple: #5e0050;
+$purple: #7f3373;
+
+*, body{
+  font-family: "Roboto", helvetica, sans-serif;
+  font-weight: 400;
+}
+body{
+  background-color: $deep_purple;
+}
+.hidden{
+  z-index: -1;
+  visibility: hidden; 
+}
+
+hr{
+  width: 90%;
+  border-radius: 10px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+hr{
+  border-top: 3px solid $deep_purple;}
+hr.purple{
+  border-top: 3px solid $purple; 
+}
+.white{
+   background-color: white !important; }
+
+.fix{
+ margin-top: -5px !important; 
+}
+
+.li{
+  font-weight: 100;}
+.bo{
+  font-weight: 700;}
+.su-bo{
+  font-weight: 900;}
+.small{
+  font-size: 1.2rem;}
+.med{
+  font-size: 1.5rem;}
+.big{
+ font-size: 2rem; }
+.super_big{
+  font-size: 3rem;}

@@ -1,0 +1,49 @@
+$image_size: 6rem;
+
+.us{
+  @include span-columns (12);
+  @include row(table);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: $deep_purple;
+  .white{
+   .logo{
+    width: 70%; 
+   }
+  }
+  .content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+  }
+  .padding_image{
+    @include pad($image_size); 
+  }
+  #us_1{
+    background-image: url("http://vignette1.wikia.nocookie.net/josh100lubu/images/4/40/18360-doge-doge-simple.jpg/revision/latest?cb=20150626051745");
+    background-size: cover;
+  }
+  #us_2{
+    background-image: url("http://i.imgur.com/dnBDQft.png");
+    background-size: cover;
+  }
+  #us_3{
+    background-image: url("https://pbs.twimg.com/profile_images/459076351832494080/1bj2iihM.jpeg");
+    background-size: cover;
+  }
+  #us_content{
+    position: absolute;
+    height: $image_size * 2;
+    text-align: center;
+    background-color: $purple;
+  }
+}

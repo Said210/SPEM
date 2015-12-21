@@ -1,0 +1,59 @@
+$image_size: 10rem;
+
+.who{
+  @include span-columns (12);
+  @include row(table);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: #fff;
+  .white{
+   .logo{
+    width: 70%; 
+   }
+  }
+  .content{
+    position: absolute;
+    top: -20rem;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+  }
+  .padding_image{
+    @include pad($image_size); 
+  }
+  #who_1{
+    background-image: url("https://images.rapgenius.com/5aqadsaty60ljdtldr6b2y5st.405x405x1.png");
+    background-size: cover;
+  }
+  #who_3{
+    color: $deep_purple;
+  }
+  #who_content{
+    position: absolute;
+    height: $image_size * 2;
+    text-align: center;
+  }
+  #who_2, #who_4, #who_3{
+    position: relative;
+    background-color: $deep_purple !important; 
+    #who_content{
+      padding-top: 5rem;
+      position: absolute;
+      top: -20rem;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+      background-color: $deep_purple !important; 
+    }
+  }
+}
