@@ -1,23 +1,21 @@
 /*
 Error: Undefined mixin 'span-columns'.
-        on line 4 of dev/sass/sections/us/index.scss, in `span-columns'
-        from line 4 of dev/sass/sections/us/index.scss
-        from line 1 of dev/sass/sections/index.scss
+        on line 4 of dev/sass/sections/consult/index.scss, in `span-columns'
+        from line 4 of dev/sass/sections/consult/index.scss
 
-1: @import "us/index";
-2: @import "who/index";
-3: @import "what/index";
-4: @import "consult/index";
-5: @import "where/index";
-6: 
-7: .footer{
-8:   color: $purple;
-9:   padding-top: 10rem;
+1: $image_size: 10rem;
+2: 
+3: .consult, .space{
+4:   @include span-columns (12);
+5:   @include row(table);
+6:   text-align: center;
+7:   margin: 0;
+8:   padding: 0;
+9:   text-align: left;
 
 Backtrace:
-dev/sass/sections/us/index.scss:4:in `span-columns'
-dev/sass/sections/us/index.scss:4
-dev/sass/sections/index.scss:1
+dev/sass/sections/consult/index.scss:4:in `span-columns'
+dev/sass/sections/consult/index.scss:4
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
@@ -34,19 +32,6 @@ dev/sass/sections/index.scss:1
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:326:in `map'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:88:in `block in with_import'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:88:in `with_import'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
@@ -84,4 +69,4 @@ dev/sass/sections/index.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'span-columns'.\A         on line 4 of dev/sass/sections/us/index.scss, in `span-columns'\A         from line 4 of dev/sass/sections/us/index.scss\A         from line 1 of dev/sass/sections/index.scss\A \A 1: @import \"us/index\";\A 2: @import \"who/index\";\A 3: @import \"what/index\";\A 4: @import \"consult/index\";\A 5: @import \"where/index\";\A 6: \A 7: .footer{\A 8:   color: $purple;\A 9:   padding-top: 10rem;"; }
+  content: "Error: Undefined mixin 'span-columns'.\A         on line 4 of dev/sass/sections/consult/index.scss, in `span-columns'\A         from line 4 of dev/sass/sections/consult/index.scss\A \A 1: $image_size: 10rem;\A 2: \A 3: .consult, .space{\A 4:   @include span-columns (12);\A 5:   @include row(table);\A 6:   text-align: center;\A 7:   margin: 0;\A 8:   padding: 0;\A 9:   text-align: left;"; }

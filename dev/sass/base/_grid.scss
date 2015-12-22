@@ -24,6 +24,9 @@
       .third{
         @include base(100% / 3);
       }
+      .three_quarters{
+        @include base(25% * 3);
+      }
       .full{
         @include base(100%);
       }

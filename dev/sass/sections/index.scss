@@ -1,3 +1,14 @@
 @import "us/index";
 @import "who/index";
 @import "what/index";
+@import "consult/index";
+@import "where/index";
+
+.footer{
+  color: $purple;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  .full{
+    padding-top: 3rem; 
+  }
+}

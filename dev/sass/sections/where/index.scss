@@ -1,0 +1,18 @@
+.where{
+  position: relative;
+  iframe{
+    z-index: 1;}
+ .box{
+   position: absolute;
+   right: 0px;
+   width: 40%;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   color: $purple;
+   background-color: white;
+   border-radius: 3px;
+   text-align: center;
+   z-index: 100;
+   box-shadow: 0px 0px 10px #333;
+ }
+}

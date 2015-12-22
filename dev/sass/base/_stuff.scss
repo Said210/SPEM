@@ -21,9 +21,9 @@ hr{
   border-right: 0px;
 }
 hr{
-  border-top: 3px solid $deep_purple;}
+  border-top: 5px solid $deep_purple;}
 hr.purple{
-  border-top: 3px solid $purple; 
+  border-top: 5px solid $purple; 
 }
 .white{
    background-color: white !important; }
@@ -36,7 +36,7 @@ hr.purple{
   font-weight: 100;}
 .bo{
   font-weight: 700;}
-.su-bo{
+.su_bo{
   font-weight: 900;}
 .small{
   font-size: 1.2rem;}
@@ -46,3 +46,6 @@ hr.purple{
  font-size: 2rem; }
 .super_big{
   font-size: 3rem;}
+
+a{
+  color: #fff;}

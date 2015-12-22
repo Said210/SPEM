@@ -76,6 +76,11 @@ body:before {
       display: inline-block;
       margin-top: 0px;
       position: relative; }
+    .container .child .three_quarters {
+      width: 75%;
+      display: inline-block;
+      margin-top: 0px;
+      position: relative; }
     .container .child .full {
       width: 100%;
       display: inline-block;
@@ -124,10 +129,10 @@ hr {
   border-right: 0px; }
 
 hr {
-  border-top: 3px solid #5e0050; }
+  border-top: 5px solid #5e0050; }
 
 hr.purple {
-  border-top: 3px solid #7f3373; }
+  border-top: 5px solid #7f3373; }
 
 .white {
   background-color: white !important; }
@@ -141,7 +146,7 @@ hr.purple {
 .bo {
   font-weight: 700; }
 
-.su-bo {
+.su_bo {
   font-weight: 900; }
 
 .small {
@@ -155,6 +160,9 @@ hr.purple {
 
 .super_big {
   font-size: 3rem; }
+
+a {
+  color: #fff; }
 
 .us {
   display: block;
@@ -200,6 +208,9 @@ hr.purple {
     background-size: cover; }
   .us #us_3 {
     background-image: url("https://pbs.twimg.com/profile_images/459076351832494080/1bj2iihM.jpeg");
+    background-size: cover; }
+  .us #us_4 {
+    background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
     background-size: cover; }
   .us #us_content {
     position: absolute;
@@ -293,8 +304,7 @@ hr.purple {
     width: 70%; }
   .what .content {
     position: absolute;
-    top: -20rem;
-    background-color: #fff;
+    top: 0rem;
     bottom: 0;
     left: 0;
     right: 0;
@@ -305,13 +315,18 @@ hr.purple {
   .what .padding_image {
     padding: 10rem; }
   .what #what_4 {
-    background-image: url("https://images.rapgenius.com/5aqadsaty60ljdtldr6b2y5st.405x405x1.png");
+    background-image: url("http://orig03.deviantart.net/aff8/f/2014/023/2/9/business_doge_by_alidoge-d73dmie.jpg");
+    background-size: cover; }
+  .what #what_5 {
+    background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
     background-size: cover; }
   .what #what_content {
     position: absolute;
     height: 20rem;
     text-align: center;
     top: -20rem; }
+  .what #what_6 {
+    background-color: #5e0050; }
   .what #what_2, .what #what_4, .what #what_3 {
     position: relative;
     background-color: #5e0050 !important; }
@@ -337,6 +352,123 @@ hr.purple {
     .what .little-button:hover {
       background-color: #5e0050;
       cursor: pointer; }
+
+.consult, .space {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%;
+  *zoom: 1;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: #5e0050;
+  padding-bottom: 5rem; }
+  .consult:last-child, .space:last-child {
+    margin-right: 0; }
+  .consult:before, .consult:after, .space:before, .space:after {
+    content: " ";
+    display: table; }
+  .consult:after, .space:after {
+    clear: both; }
+  .consult .white .logo, .space .white .logo {
+    width: 70%; }
+  .consult .content, .space .content {
+    position: absolute;
+    top: 0rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    text-align: center; }
+  .consult .padding_image, .space .padding_image {
+    padding: 10rem; }
+  .consult #consult_1, .space #consult_1 {
+    background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
+    background-size: cover; }
+  .consult #consult_2, .space #consult_2 {
+    background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
+    background-size: cover; }
+  .consult #consult_3, .space #consult_3 {
+    background-image: url("http://i1.nyt.com/images/2015/06/05/fashion/20150605DRESSCODES-slide-F9CK/20150605DRESSCODES-slide-F9CK-slide.jpg");
+    background-size: cover;
+    background-position: center; }
+  .consult #consult_4, .space #consult_4 {
+    background-image: url("http://petzter.com/wp-content/uploads/2015/06/29FDAD4700000578-3139932-image-a-3_1435309408518.jpg");
+    background-size: cover; }
+  .consult #consult_content, .space #consult_content {
+    position: absolute;
+    height: 20rem;
+    text-align: center;
+    top: -20rem; }
+  .consult #consult_6, .space #consult_6 {
+    background-color: #5e0050; }
+  .consult #consult_2, .consult #consult_4, .consult #consult_3, .space #consult_2, .space #consult_4, .space #consult_3 {
+    position: relative;
+    background-color: #5e0050 !important; }
+    .consult #consult_2 #consult_content, .consult #consult_4 #consult_content, .consult #consult_3 #consult_content, .space #consult_2 #consult_content, .space #consult_4 #consult_content, .space #consult_3 #consult_content {
+      padding-top: 5rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+      background-color: #7f3373 !important; }
+  .consult #consult_1 #consult_content, .space #consult_1 #consult_content {
+    background-color: #5e0050;
+    padding-top: 6rem; }
+  .consult .little-button, .space .little-button {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3px;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    transition: 0.3s all; }
+    .consult .little-button:hover, .space .little-button:hover {
+      background-color: #5e0050;
+      cursor: pointer; }
+  .consult select, .space select {
+    border: none;
+    outline: none;
+    background-color: #7f3373;
+    color: #fff;
+    width: 20rem;
+    padding: 10rem;
+    border-radius: 90%;
+    height: 2.5rem;
+    font-size: 1.5rem; }
+
+.where {
+  position: relative; }
+  .where iframe {
+    z-index: 1; }
+  .where .box {
+    position: absolute;
+    right: 0px;
+    width: 40%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #7f3373;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    z-index: 100;
+    box-shadow: 0px 0px 10px #333; }
+
+.footer {
+  color: #7f3373;
+  padding-top: 10rem;
+  padding-bottom: 3rem; }
+  .footer .full {
+    padding-top: 3rem; }
 
 /*
   

@@ -1,6 +1,6 @@
 $image_size: 10rem;
 
-.what{
+.consult, .space{
   @include span-columns (12);
   @include row(table);
   text-align: center;
@@ -8,7 +8,8 @@ $image_size: 10rem;
   padding: 0;
   text-align: left;
   color: #fff;
-  background-color: $purple;
+  background-color: $deep_purple;
+  padding-bottom: 5rem;
   .white{
    .logo{
     width: 70%; 
@@ -28,27 +29,36 @@ $image_size: 10rem;
   .padding_image{
     @include pad($image_size); 
   }
-  #what_4{
-    background-image: url("http://orig03.deviantart.net/aff8/f/2014/023/2/9/business_doge_by_alidoge-d73dmie.jpg");
+  #consult_1{
+      background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
     background-size: cover;
   }
-  #what_5{
+  #consult_2{
     background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
     background-size: cover;
   }
-  #what_content{
+  #consult_3{
+    background-image: url("http://i1.nyt.com/images/2015/06/05/fashion/20150605DRESSCODES-slide-F9CK/20150605DRESSCODES-slide-F9CK-slide.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #consult_4{
+    background-image: url("http://petzter.com/wp-content/uploads/2015/06/29FDAD4700000578-3139932-image-a-3_1435309408518.jpg");
+    background-size: cover;
+  }
+  #consult_content{
     position: absolute;
     height: $image_size * 2;
     text-align: center;
     top: -20rem;
   }
-  #what_6{
+  #consult_6{
     background-color: $deep_purple; 
   }
-  #what_2, #what_4, #what_3{
+  #consult_2, #consult_4, #consult_3{
     position: relative;
     background-color: $deep_purple !important; 
-    #what_content{
+    #consult_content{
       padding-top: 5rem;
       position: absolute;
       bottom: 0;
@@ -59,8 +69,8 @@ $image_size: 10rem;
       background-color: $purple !important; 
     }
   }
-  #what_1{
-    #what_content{
+  #consult_1{
+    #consult_content{
       background-color: $deep_purple;
       padding-top: 6rem;
     }
@@ -74,5 +84,16 @@ $image_size: 10rem;
       background-color: $deep_purple;
       cursor: pointer;
     }
+  }
+  select{
+    border: none;
+    outline: none;
+    background-color: $purple;
+    color: #fff;
+    width: 20rem;
+    padding: 10rem;
+    border-radius: 90%;
+    height: 2.5rem;
+    font-size: 1.5rem;
   }
 }
