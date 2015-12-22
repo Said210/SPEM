@@ -15,17 +15,17 @@
                </div>
 			   <div class="right">
 			     <ul class="">
-			       <li class="menu-item">Nosotros</li>
-			       <li class="menu-item">¿Para quienes?</li>
-			       <li class="menu-item">¿Qué hacemos?</li>
-			       <li class="menu-item">Consultenos</li>
-			       <li class="menu-item">¿Dónde?</li>
+			       <li class="menu-item" onclick="go_to('anchor_us')">Nosotros</li>
+			       <li class="menu-item" onclick="go_to('anchor_who')">¿Para quienes?</li>
+			       <li class="menu-item" onclick="go_to('anchor_what')">¿Qué hacemos?</li>
+			       <li class="menu-item" onclick="go_to('anchor_consult')">Consultenos</li>
+			       <li class="menu-item" onclick="go_to('where')">¿Dónde?</li>
 			     </ul>
 			   </div>
 			 </section>
 		<!--End-->
 		<!--About-->
-            <section class="us fix">
+            <section class="us fix" id="anchor_us">
               <div class="half white">
                 <img src="assets/images/logo-color.png" width="100%" class="hidden" alt="">
                 <div class="content">
@@ -49,7 +49,7 @@
             </section>
 		<!--End-->
 		<!--Who-->
-            <section class="who fix">
+            <section class="who fix" id="anchor_who">
               <div class="block padding_image" id="who_1"></div>
               <div class="block" id="who_2">
                
@@ -74,7 +74,7 @@
             </section>
 		<!--End-->
         <!--what-->
-		    <section class="what fix">
+		    <section class="what fix" id="anchor_what">
 		      <div class="block" id="what_1">
 		        <div class="full" id="what_content">
                   <h2>¿Qué hacemos?</h2>
@@ -116,7 +116,7 @@
 		    </section>
 		<!--End-->
 		<!--Consult-->
-		    <section class="consult fix">
+		    <section class="consult fix" id="anchor_consult">
 		      <div class="full">
 		        <p class="super_big su_bo" align="center">CONSULTENOS:</p>
 		        <p id="form_consult" align="center" class="li big">
@@ -166,5 +166,6 @@ src="https://www.google.com/maps/embed/v1/place?q=Baranca%20del%20muerto%20525&k
 		    </section>
 		</div>
 	</div>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

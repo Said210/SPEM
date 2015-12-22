@@ -151,15 +151,27 @@ hr.purple {
 
 .small {
   font-size: 1.2rem; }
+  @media screen and (max-widht: 900px) {
+    .small {
+      font-size: 1rem; } }
 
 .med {
   font-size: 1.5rem; }
+  @media screen and (max-widht: 900px) {
+    .med {
+      font-size: 1.2rem; } }
 
 .big {
   font-size: 2rem; }
+  @media screen and (max-widht: 900px) {
+    .big {
+      font-size: 1.5rem; } }
 
 .super_big {
   font-size: 3rem; }
+  @media screen and (max-widht: 900px) {
+    .super_big {
+      font-size: 1.5rem; } }
 
 a {
   color: #fff; }
@@ -199,18 +211,20 @@ a {
     margin: auto;
     text-align: center; }
   .us .padding_image {
-    padding: 6rem; }
+    padding-top: 6rem;
+    padding-bottom: 6rem; }
   .us #us_1 {
-    background-image: url("http://vignette1.wikia.nocookie.net/josh100lubu/images/4/40/18360-doge-doge-simple.jpg/revision/latest?cb=20150626051745");
-    background-size: cover; }
+    background-image: url("/assets/images/confidence.jpg");
+    background-size: cover;
+    background-position: center; }
   .us #us_2 {
-    background-image: url("http://i.imgur.com/dnBDQft.png");
+    background-image: url("/assets/images/money.jpg");
     background-size: cover; }
   .us #us_3 {
-    background-image: url("https://pbs.twimg.com/profile_images/459076351832494080/1bj2iihM.jpeg");
+    background-image: url("/assets/images/hands.jpg");
     background-size: cover; }
   .us #us_4 {
-    background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
+    background-image: url("/assets/images/confidence.jpg");
     background-size: cover; }
   .us #us_content {
     position: absolute;
@@ -232,7 +246,8 @@ a {
   padding: 0;
   text-align: left;
   color: #fff;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 320px; }
   .who:last-child {
     margin-right: 0; }
   .who:before, .who:after {
@@ -254,15 +269,17 @@ a {
     margin: auto;
     text-align: center; }
   .who .padding_image {
-    padding: 10rem; }
+    padding-top: 160px;
+    padding-bottom: 160px; }
   .who #who_1 {
-    background-image: url("https://images.rapgenius.com/5aqadsaty60ljdtldr6b2y5st.405x405x1.png");
-    background-size: cover; }
+    background-image: url("/assets/images/happy_2.jpg");
+    background-size: cover;
+    background-position: right; }
   .who #who_3 {
     color: #5e0050; }
   .who #who_content {
     position: absolute;
-    height: 20rem;
+    height: 320px;
     text-align: center; }
   .who #who_2, .who #who_4, .who #who_3 {
     position: relative;
@@ -313,12 +330,13 @@ a {
     margin: auto;
     text-align: center; }
   .what .padding_image {
-    padding: 10rem; }
+    padding-top: 10rem;
+    padding-bottom: 10rem; }
   .what #what_4 {
-    background-image: url("http://orig03.deviantart.net/aff8/f/2014/023/2/9/business_doge_by_alidoge-d73dmie.jpg");
+    background-image: url("/assets/images/happy.jpg");
     background-size: cover; }
   .what #what_5 {
-    background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
+    background-image: url("/assets/images/money_2.jpg");
     background-size: cover; }
   .what #what_content {
     position: absolute;
@@ -389,7 +407,8 @@ a {
     margin: auto;
     text-align: center; }
   .consult .padding_image, .space .padding_image {
-    padding: 10rem; }
+    padding-top: 10rem;
+    padding-bottom: 10rem; }
   .consult #consult_1, .space #consult_1 {
     background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
     background-size: cover; }
@@ -397,11 +416,11 @@ a {
     background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
     background-size: cover; }
   .consult #consult_3, .space #consult_3 {
-    background-image: url("http://i1.nyt.com/images/2015/06/05/fashion/20150605DRESSCODES-slide-F9CK/20150605DRESSCODES-slide-F9CK-slide.jpg");
+    background-image: url("/assets/images/serious.jpg");
     background-size: cover;
     background-position: center; }
   .consult #consult_4, .space #consult_4 {
-    background-image: url("http://petzter.com/wp-content/uploads/2015/06/29FDAD4700000578-3139932-image-a-3_1435309408518.jpg");
+    background-image: url("/assets/images/confidence_2.jpg");
     background-size: cover; }
   .consult #consult_content, .space #consult_content {
     position: absolute;
