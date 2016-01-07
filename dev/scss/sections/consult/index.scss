@@ -31,20 +31,22 @@ $image_size: 10rem;
     padding-bottom: $image_size;
   }
   #consult_1{
-      background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
+      //background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
+      background-color: $purple;
     background-size: cover;
   }
   #consult_2{
-    background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
+   // background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
+    background-color: $purple; 
     background-size: cover;
   }
   #consult_3{
-    background-image: url("/assets/images/serious.jpg");
+    background-image: url("/assets/images/confidence_2.jpg");
     background-size: cover;
     background-position: center;
   }
   #consult_4{
-    background-image: url("/assets/images/confidence_2.jpg");
+    background-image: url("/assets/images/serious.jpg");
     background-size: cover;
   }
   #consult_content{
@@ -58,7 +60,7 @@ $image_size: 10rem;
   }
   #consult_2, #consult_4, #consult_3{
     position: relative;
-    background-color: $deep_purple !important; 
+    //background-color: $deep_purple !important; 
     #consult_content{
       padding-top: 5rem;
       position: absolute;

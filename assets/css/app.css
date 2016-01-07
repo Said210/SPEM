@@ -66,26 +66,54 @@ body:before {
       display: inline-block;
       margin-top: 0px;
       position: relative; }
+      @media screen and (max-width: 800px) {
+        .container .child .block {
+          width: 100%;
+          display: inline-block;
+          margin-top: 0px;
+          position: relative; } }
     .container .child .half {
       width: 50%;
       display: inline-block;
       margin-top: 0px;
       position: relative; }
+      @media screen and (max-width: 800px) {
+        .container .child .half {
+          width: 100%;
+          display: inline-block;
+          margin-top: 0px;
+          position: relative; } }
     .container .child .third {
       width: 33.33333%;
       display: inline-block;
       margin-top: 0px;
       position: relative; }
+      @media screen and (max-width: 800px) {
+        .container .child .third {
+          width: 100%;
+          display: inline-block;
+          margin-top: 0px;
+          position: relative; } }
     .container .child .three_quarters {
       width: 75%;
       display: inline-block;
       margin-top: 0px;
       position: relative; }
+      @media screen and (max-width: 800px) {
+        .container .child .three_quarters {
+          width: 100%;
+          display: inline-block;
+          margin-top: 0px;
+          position: relative; } }
     .container .child .full {
       width: 100%;
       display: inline-block;
       margin-top: 0px;
       position: relative; }
+
+@media screen and (max-width: 800px) {
+  .not_small {
+    display: none !important; } }
 
 .left {
   float: left; }
@@ -149,27 +177,33 @@ hr.purple {
 .su_bo {
   font-weight: 900; }
 
+.su_small {
+  font-size: 1rem; }
+  @media screen and (max-width: 900px) {
+    .su_small {
+      font-size: .8rem; } }
+
 .small {
   font-size: 1.2rem; }
-  @media screen and (max-widht: 900px) {
+  @media screen and (max-width: 900px) {
     .small {
       font-size: 1rem; } }
 
 .med {
   font-size: 1.5rem; }
-  @media screen and (max-widht: 900px) {
+  @media screen and (max-width: 900px) {
     .med {
       font-size: 1.2rem; } }
 
 .big {
   font-size: 2rem; }
-  @media screen and (max-widht: 900px) {
+  @media screen and (max-width: 900px) {
     .big {
       font-size: 1.5rem; } }
 
 .super_big {
   font-size: 3rem; }
-  @media screen and (max-widht: 900px) {
+  @media screen and (max-width: 900px) {
     .super_big {
       font-size: 1.5rem; } }
 
@@ -214,7 +248,7 @@ a {
     padding-top: 6rem;
     padding-bottom: 6rem; }
   .us #us_1 {
-    background-image: url("/assets/images/confidence.jpg");
+    background-image: url("/assets/images/serious.jpg");
     background-size: cover;
     background-position: center; }
   .us #us_2 {
@@ -309,7 +343,8 @@ a {
   padding: 0;
   text-align: left;
   color: #fff;
-  background-color: #7f3373; }
+  background-color: #7f3373;
+  position: relative; }
   .what:last-child {
     margin-right: 0; }
   .what:before, .what:after {
@@ -336,15 +371,34 @@ a {
     background-image: url("/assets/images/happy.jpg");
     background-size: cover; }
   .what #what_5 {
+    position: absolute;
+    left: 0px;
     background-image: url("/assets/images/money_2.jpg");
-    background-size: cover; }
+    background-size: cover;
+    height: 100%; }
   .what #what_content {
     position: absolute;
     height: 20rem;
     text-align: center;
     top: -20rem; }
   .what #what_6 {
-    background-color: #5e0050; }
+    background-color: white;
+    color: #5e0050;
+    margin-left: 25%; }
+    @media screen and (max-width: 800px) {
+      .what #what_6 {
+        margin-left: 0%;
+        height: 20rem; } }
+    .what #what_6 .content {
+      padding: 1rem;
+      text-align: left;
+      margin-top: 0px; }
+  @media screen and (max-width: 800px) {
+    .what #what_1, .what #what_2, .what #what_3 {
+      margin-left: 0%;
+      height: 20rem; }
+      .what #what_1 .what_content, .what #what_2 .what_content, .what #what_3 .what_content {
+        margin: 0px !important; } }
   .what #what_2, .what #what_4, .what #what_3 {
     position: relative;
     background-color: #5e0050 !important; }
@@ -364,6 +418,7 @@ a {
     padding: 5px;
     border-radius: 10px;
     margin: 3px;
+    text-align: center;
     -webkit-transition: 0.3s all;
     -moz-transition: 0.3s all;
     transition: 0.3s all; }
@@ -410,17 +465,17 @@ a {
     padding-top: 10rem;
     padding-bottom: 10rem; }
   .consult #consult_1, .space #consult_1 {
-    background-image: url("http://barkpost.com/wp-content/uploads/2014/05/tumblr_mvt0fzIRVK1s4yg05o2_r1_1280.jpg");
+    background-color: #7f3373;
     background-size: cover; }
   .consult #consult_2, .space #consult_2 {
-    background-image: url("http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg");
+    background-color: #7f3373;
     background-size: cover; }
   .consult #consult_3, .space #consult_3 {
-    background-image: url("/assets/images/serious.jpg");
+    background-image: url("/assets/images/confidence_2.jpg");
     background-size: cover;
     background-position: center; }
   .consult #consult_4, .space #consult_4 {
-    background-image: url("/assets/images/confidence_2.jpg");
+    background-image: url("/assets/images/serious.jpg");
     background-size: cover; }
   .consult #consult_content, .space #consult_content {
     position: absolute;
@@ -430,8 +485,7 @@ a {
   .consult #consult_6, .space #consult_6 {
     background-color: #5e0050; }
   .consult #consult_2, .consult #consult_4, .consult #consult_3, .space #consult_2, .space #consult_4, .space #consult_3 {
-    position: relative;
-    background-color: #5e0050 !important; }
+    position: relative; }
     .consult #consult_2 #consult_content, .consult #consult_4 #consult_content, .consult #consult_3 #consult_content, .space #consult_2 #consult_content, .space #consult_4 #consult_content, .space #consult_3 #consult_content {
       padding-top: 5rem;
       position: absolute;

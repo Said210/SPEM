@@ -1,3 +1,5 @@
+$breakpoint: 800px;
+
 @mixin base($calc){
   width: $calc;
   display: inline-block;
@@ -16,23 +18,42 @@
 	padding: 0;
 
 	  .block {
-		@include base(23.23176% + 1.769%);
+		  @include base(23.23176% + 1.769%);
+      @media screen and (max-width: $breakpoint){
+       @include base(100%);
+      }
 	  }
 	  .half{
         @include base(50%);
+        @media screen and (max-width: $breakpoint){
+         @include base(100%);
+        }
 	  }
-      .third{
-        @include base(100% / 3);
+    .third{
+      @include base(100% / 3);
+     @media screen and (max-width: $breakpoint){
+         @include base(100%);
+        }
+    }
+    .three_quarters{
+      @include base(25% * 3);
+      @media screen and (max-width: $breakpoint){
+       @include base(100%);
       }
-      .three_quarters{
-        @include base(25% * 3);
-      }
-      .full{
-        @include base(100%);
-      }
+    }
+    .full{
+      @include base(100%);
+    }
   }
   
 }
+
+.not_small{
+  @media screen and (max-width: $breakpoint){
+   display: none !important;
+  }
+}
+
 .left{
   float: left;}
 .right{

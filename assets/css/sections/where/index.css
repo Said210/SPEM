@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$purple".
-        on line 11 of dev/sass/sections/where/index.scss
+        on line 11 of dev/scss/sections/where/index.scss
 
 6:    position: absolute;
 7:    right: 0px;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$purple".
 16:    box-shadow: 0px 0px 10px #333;
 
 Backtrace:
-dev/sass/sections/where/index.scss:11
+dev/scss/sections/where/index.scss:11
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -66,16 +66,17 @@ dev/sass/sections/where/index.scss:11
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
 /Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/plugin.rb:108:in `method_missing'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:384:in `watch_or_update'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/bin/sass:23:in `load'
+/Users/saidpelaez/.rvm/gems/ruby-2.1.2/bin/sass:23:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$purple\".\A         on line 11 of dev/sass/sections/where/index.scss\A \A 6:    position: absolute;\A 7:    right: 0px;\A 8:    width: 40%;\A 9:    padding-top: 3rem;\A 10:    padding-bottom: 3rem;\A 11:    color: $purple;\A 12:    background-color: white;\A 13:    border-radius: 3px;\A 14:    text-align: center;\A 15:    z-index: 100;\A 16:    box-shadow: 0px 0px 10px #333;"; }
+  content: "Error: Undefined variable: \"$purple\".\A         on line 11 of dev/scss/sections/where/index.scss\A \A 6:    position: absolute;\A 7:    right: 0px;\A 8:    width: 40%;\A 9:    padding-top: 3rem;\A 10:    padding-bottom: 3rem;\A 11:    color: $purple;\A 12:    background-color: white;\A 13:    border-radius: 3px;\A 14:    text-align: center;\A 15:    z-index: 100;\A 16:    box-shadow: 0px 0px 10px #333;"; }

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Inicio | SPEM</title>
 	<link rel="stylesheet" href="assets/css/app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div class="container">
@@ -37,8 +38,8 @@
                 <div class="content med">Servicios de consultoría especializada en temas legales y administrativos, para personas, empresas y gobiernos.</div>
               </div>
               <div class="us">
-                <div class="block padding_image" id="us_1"></div>
-                <div class="block padding_image" id="us_2"></div>
+                <div class="block padding_image not_small" id="us_1"></div>
+                <div class="block padding_image not_small" id="us_2"></div>
                 <div class="block padding_image" id="us_3"></div>
                 <div class="block" id="us_content">
                   <h2>¿QUIENES SOMOS?</h2>
@@ -50,7 +51,7 @@
 		<!--End-->
 		<!--Who-->
             <section class="who fix" id="anchor_who">
-              <div class="block padding_image" id="who_1"></div>
+              <div class="block padding_image not_small" id="who_1"></div>
               <div class="block" id="who_2">
                
                 <div class="full" id="who_content">
@@ -85,34 +86,47 @@
 		      <div class="block" id="what_2">
 		        <div class="full" id="what_content">
 		          <div class="med">Su problema se relaciona con...</div>
-		          <div class="little-button">Elemento 1</div>
-		          <div class="little-button">Elemento 2</div>
-		          <div class="little-button">Elemento 3</div>
-		          <div class="little-button">Elemento 4</div>
-		          <div class="little-button">Elemento 5</div>
+		          <div class="little-button">Deudas</div>
+		          <div class="little-button">Contratos</div>
+		          <div class="little-button">Propiedad</div>
+		          <div class="little-button">Herencias</div>
+		          <div class="little-button">Deudas y Perjuicios</div>
 		        </div>
 		      </div>
 		      <div class="block" id="what_3">
 		        <div class="full" id="what_content"><br><br>
-		          <div class="little-button">Elemento 1</div>
-		          <div class="little-button">Elemento 2</div>
-		          <div class="little-button">Elemento 3</div>
-		          <div class="little-button">Elemento 4</div>
+		          <div class="little-button">Regularización de Papeles</div>
+		          <div class="little-button">Permisos, multas y/o Licencias Administrativas</div>
+		          <div class="little-button">Estado Civil y/o Familia</div>
+		          <div class="little-button">Marcas, Patentes e Inventos</div>
 		        </div>
 		      </div>
-		      <div class="block padding_image" id="what_4"></div>
+		      <div class="block padding_image not_small" id="what_4"></div>
 		      <div class="what fix">
-                <div class="block padding_image" id="what_5"></div>
+                <div class="block padding_image not_small" id="what_5"></div>
                 <div class="three_quarters" id="what_6">
-                <img src="http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg" width="27.1%" class="hidden" alt="">
-                <div class="content med">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore repudiandae eligendi neque inventore, culpa quasi atque deleniti eius, fugit quas consequuntur animi incidunt nemo, laboriosam error commodi, quaerat nihil suscipit.</div></div>
+                  <img src="http://www.kissuomo.it/wp-content/uploads/2013/12/tumblr_mps6biKdXe1s4yg05o1_r1_500.jpg" width="30.1%" class="hidden" alt="">
+                  <div class="content">
+                    <span class="big">Deudas</span>
+                    <p class="su_small" align="justify">
+                      Contamos con una amplia experiencia en la defensa y en el cobro de cualquier clase de deuda dentro y fuera de los tribunales, por lo que nuestro equipo se encuentra altamente calificado para la atención de sus necesidades como cliente. Así, somos la única consultoría que le garantiza una solución sin importar el origen de sus deudas. <br>
+                      A modo de ejemplo, sin que implique limitación, atendemos deudas provenientes de:
+                    </p>
+                      <ol>
+                        <li>Títulos de Crédito (Pagarés, Cheques, Letras de Cambio, etc.).</li>
+                        <li>Operaciones Comerciales y/o Crediticias.</li>
+                        <li>Préstamos.</li>
+                        <li>Obligaciones Contractuales de índole diversa.</li>
+                      </ol>
+                  </div>
+                </div>
               </div>
 		    </section>
 		    <section class="space fix">
-		      <div class="block padding_image" id="consult_1"></div>
-              <div class="block padding_image" id="consult_2"></div>
-              <div class="block padding_image" id="consult_3"></div>
-              <div class="block padding_image" id="consult_4"></div>
+		      <div class="block padding_image not_small" id="consult_1"></div>
+              <div class="block padding_image not_small" id="consult_2"></div>
+              <div class="block padding_image not_small" id="consult_3"></div>
+              <div class="block padding_image not_small" id="consult_4"></div>
 		    </section>
 		<!--End-->
 		<!--Consult-->
