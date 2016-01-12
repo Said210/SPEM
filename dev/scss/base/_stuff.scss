@@ -2,7 +2,7 @@ $deep_purple: #5e0050;
 $purple: #7f3373;
 
 *, body{
-  font-family: "Roboto", helvetica, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 400;
 }
 body{
@@ -21,9 +21,9 @@ hr{
   border-right: 0px;
 }
 hr{
-  border-top: 5px solid $deep_purple;}
+  border-top: 3px solid $deep_purple;}
 hr.purple{
-  border-top: 5px solid $purple; 
+  border-top: 3px solid $purple; 
 }
 .white{
    background-color: white !important; }
@@ -73,3 +73,7 @@ hr.purple{
 
 a{
   color: #fff;}
+
+.g_pad{
+  padding: 1.6rem;
+}

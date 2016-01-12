@@ -35,13 +35,13 @@
               </div>
               <div class="half">
                 <img src="assets/images/logo-color.png" width="100%" class="hidden" alt="">
-                <div class="content med">Servicios de consultoría especializada en temas legales y administrativos, para personas, empresas y gobiernos.</div>
+                <div class="content med" style="text-align: justify">Servicios de consultoría especializada en temas legales y administrativos, para personas, empresas y gobiernos.</div>
               </div>
               <div class="us">
                 <div class="block padding_image not_small" id="us_1"></div>
                 <div class="block padding_image not_small" id="us_2"></div>
                 <div class="block padding_image" id="us_3"></div>
-                <div class="block" id="us_content">
+                <div class="block g_pad" id="us_content">
                   <h2>¿QUIENES SOMOS?</h2>
                   <hr>
                   Un equipo multidisciplinario enfocado en desarrollar soluciones para nuestros clientes.
@@ -54,19 +54,19 @@
               <div class="block padding_image not_small" id="who_1"></div>
               <div class="block" id="who_2">
                
-                <div class="full" id="who_content">
+                <div class="full g_pad" id="who_content">
                   <h2>¿PARA QUIENES?</h2>
                   <hr class="purple">
                   Nuestros clientes son empresarios, pequeños comerciantes, emprendedores, funcionarios públicos y privados, profesionistas, amas de casa…    
                 </div>
               </div>
               <div class="block white" id="who_3">
-                <div class="content white">
+                <div class="g_pad content white">
                   “SPEM es una consultoría que se enfoca en desarrollar soluciones efectivas para sus clientes”
                 </div>
               </div>
               <div class="block" id="who_4">
-                <div class="full" id="who_content">
+                <div class="full g_pad" id="who_content">
                   <span class="big">A su lado desde</span><br><br>
                   <span class="super_big su-bo">2006</span><br><br>
                   <div class="big">México</div>
@@ -77,15 +77,15 @@
         <!--what-->
 		    <section class="what fix" id="anchor_what">
 		      <div class="block" id="what_1">
-		        <div class="full" id="what_content">
+		        <div class="full g_pad" id="what_content">
                   <h2>¿Qué hacemos?</h2>
                   <hr class="purple">
-                  Le atendemos para conocer sus problemas y necesidades, y en función de ellas poder diseñar y construir las mejores soluciones.              
+                    Le atendemos para conocer sus problemas y necesidades, y en función de ellas poder diseñar y construir las mejores soluciones.              
                 </div>
 		      </div>
 		      <div class="block" id="what_2">
 		        <div class="full" id="what_content">
-		          <div class="med">Su problema se relaciona con...</div>
+		          <div class="med">"Su problema se relaciona con..."</div>
 		          <div class="little-button">Deudas</div>
 		          <div class="little-button">Contratos</div>
 		          <div class="little-button">Propiedad</div>

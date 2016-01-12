@@ -139,7 +139,7 @@ body:before {
       background-color: #7f3373; }
 
 *, body {
-  font-family: "Roboto", helvetica, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 400; }
 
 body {
@@ -157,10 +157,10 @@ hr {
   border-right: 0px; }
 
 hr {
-  border-top: 5px solid #5e0050; }
+  border-top: 3px solid #5e0050; }
 
 hr.purple {
-  border-top: 5px solid #7f3373; }
+  border-top: 3px solid #7f3373; }
 
 .white {
   background-color: white !important; }
@@ -209,6 +209,9 @@ hr.purple {
 
 a {
   color: #fff; }
+
+.g_pad {
+  padding: 1.6rem; }
 
 .us {
   display: block;
@@ -419,6 +422,10 @@ a {
     border-radius: 10px;
     margin: 3px;
     text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: left;
+    padding-left: 2rem;
     -webkit-transition: 0.3s all;
     -moz-transition: 0.3s all;
     transition: 0.3s all; }
@@ -475,8 +482,9 @@ a {
     background-size: cover;
     background-position: center; }
   .consult #consult_4, .space #consult_4 {
-    background-image: url("/assets/images/serious.jpg");
-    background-size: cover; }
+    background-image: url("/assets/images/confidence.jpg");
+    background-size: cover;
+    background-position: center; }
   .consult #consult_content, .space #consult_content {
     position: absolute;
     height: 20rem;
@@ -502,6 +510,9 @@ a {
     padding: 5px;
     border-radius: 10px;
     margin: 3px;
+    margin-right: 1rem;
+    text-align: left;
+    padding-left: 2rem;
     -webkit-transition: 0.3s all;
     -moz-transition: 0.3s all;
     transition: 0.3s all; }
